@@ -34,9 +34,9 @@ You can get the API-KEY clicking on your profile icon in the lower left of the D
 ## Install
 1. Clone the project
 2. export in a folder, let me say /opt/DataPaws
-3. edit the config file (config.cfg) to add the API-KEY and adjust the datadog URL (different regions use different urls).
+3. edit the config file (config.cfg) to add the API-KEY and adjust the datadog URL (different regions use different urls).<br>
 3b. [OPTIONAL] enable or disable metrics modules
-4. Add a crontab for root that run DataPaws agent (I will add the system service in the next releases), for example, to run it every 5minutes :
+4. Add a crontab for root that run DataPaws agent (I will add the system service in the next releases), for example, to run it every 5minutes :<br>
 ```*/5 * * * * cd /opt/datapaws && ./datapaws.sh > /tmp/datapaws.log 2>&1```
 
 ## Datadog dashboards
